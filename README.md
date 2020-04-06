@@ -35,3 +35,22 @@ Another easy way to get Git installed is by installing GitHub Desktop. The insta
 Git is released under the [GNU General Public License version 2.0](http://opensource.org/licenses/GPL-2.0), which is an [open source license](http://www.opensource.org/docs/osd). The Git project chose to use GPLv2 to guarantee your freedom to share and change free software---to make sure the software is free for all its users.
 
 However, we do restrict the use of the term "Git" and the logos to avoid confusion. Please see our [trademark](https://git-scm.com/trademark) policy for details.
+
+## Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода:
+JavaScript:
+```JavaScript
+<script src="https://localhost/neuro.sdk.min.js"></script>
+```
+Java (Maven):
+```Java (Maven):
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+```
+iOS (добавьте код в ваш Podfile):
+```iOS
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
+```
